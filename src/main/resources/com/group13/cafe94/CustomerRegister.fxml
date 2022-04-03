@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.group13.cafe94.CustomerRegister">
+   <children>
+      <Button layoutX="269.0" layoutY="291.0" mnemonicParsing="false" onAction="#register" text="Register" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/img.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="firstName" layoutX="228.0" layoutY="117.0" promptText="First Name" />
+      <TextField fx:id="lastName" layoutX="228.0" layoutY="152.0" promptText="Last Name" />
+      <TextField fx:id="street" layoutX="228.0" layoutY="188.0" promptText="Address Line 1" />
+      <TextField fx:id="city" layoutX="228.0" layoutY="224.0" promptText="City/Town" />
+      <TextField fx:id="postcode" layoutX="228.0" layoutY="259.0" promptText="Postcode" />
+   </children>
+</AnchorPane>

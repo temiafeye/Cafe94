@@ -1,0 +1,51 @@
+help file
+
+
+https://stackoverflow.com/questions/11549394/java-how-to-limit-access-of-a-method-to-a-specific-class
+
+1 - LoginPage (Customer & Staff)
+
+Customer{
+    2 - HandleCustomerLogin
+        2.1 RegistrationPage(if new user) (Register and go to 2.2)
+        2.2 Page with eatin, delivery, takeaway options
+    3.1 - (Eatin) DisplayMenu and get order (add order to customer history) (send approval from a waiter for order confirmation)
+    3.2 - Delivery (Prompt for new address or display customer address) (Display delivery info)
+    3.3 - Takeaway (Display pickup time)
+}
+
+Staff{
+    2 - Manager - view staffs, add staff, delete staff, edit staff (we can add any other functionalities as needed)
+    3 - Chef - view orders and change order status
+    4 - Waiters - get bookings list and approve
+    5 - DeliveryDriver - set delivery status from the list delivery orders
+}
+
+---------------------------------------
+
+Database
+
+Order Table{
+    OrderID - primary key
+    link delivery table, eatin table, takeaway table with orderID
+}
+
+Bookings table{
+    
+}
+
+Customer Table{
+
+}
+
+Staff Table{
+
+}
+
+Menu Table{
+
+}
+
+
+
+
